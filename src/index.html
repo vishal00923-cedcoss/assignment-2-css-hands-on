@@ -6,7 +6,18 @@
     <title>CSS Assignment</title>
 
     <style>
-      .penguin {
+
+  :root {
+    --red-color: red;
+  }
+
+  .red-box {
+    background: red;
+    background: var(--red-color);
+    height: 200px;
+    width:200px;
+  }
+    .penguin {
     --penguin-skin: gray;
     position: relative;
     margin: auto;
@@ -222,6 +233,8 @@
     </style>
   </head>
   <body>
+    <div class="red-box"></div>
+    
     <div class="penguin">
       <div class="penguin-bottom">
         <div class="right-hand"></div>
