@@ -8,8 +8,20 @@
     <style>
 
   :root {
-    --red-color: red;
-    --penguin-belly: pink;
+    --penguin-size: 300px;
+    --penguin-skin: gray;
+    --penguin-belly: white;
+    --penguin-beak: orange;
+  }
+
+  @media (max-width: 350px) {
+    :root {
+      /* Only change code below this line */
+    --penguin-size: 200px;
+    --penguin-skin: black;
+
+      /* Only change code above this line */
+    }
   }
 
   .red-box {
